@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Trivia Game</title>
+   
+    <!--going to try and do this wihtough jquery.//!-->
+    <link rel="stylesheet" type="text/css" href="assets/trivia.css">
+    <!--	/* minimal CSS is needed. i do need to write the questions into the javaScript or 
+	CSS/ Do I console log the questions? */ !-->
+</head>
+
+<body>
+    <div class="container">
+        <h1> Harry Potter Hufflepuff Trivia Game</h1>
+        <!--test click//!-->
+        <div id="timer"></div>
+        <button id="startButton">Start</button>
+        
+        <button id="submitTest">Submit Test</button>
+        
+        <div id="invisible">
+
+          <!--  <p id="countdown"></p>
+            
+            <script type="text/javascript">
+            function countDown(secs, elem) {
+                var element = document.getElementById(elem);
+                element.innerHTML = "You have " + secs + " seconds to answer.";
+                if (secs < 1) {
+                    clearTimeout(timer);
+                    element.innerHTML = '<h2>Trivia Quiz Is Over!</h2';
+                    // element.innerHTML += '<a href = "#visibleFinish">Click here</a>
+                }
+                sec-;
+                var timer = setTimeout('countDown(' + secs + ',"' + elem + '")', 1000);
+            }
+            </script>
+
+            <div id="status>"></div>
+
+            <script type="text/javascript">
+            countDown(60, "status");
+            
+            </script>!-->
+
+            <form id="trivia" name="trivia">
+                <!--<div id= "timeRemaining"> Time Remaining</div>!-->
+                <h2> Who founded Hufflepuff?</h2>
+                <input type="radio" id="radio1" name="question1" value="Harriet Hufflepuff"> Harriet Hufflepuff
+                <br>
+                <input type="radio" id="radio1" name="question1" value="Helga Hufflepuff"> Helga Hufflepuff
+                <br>
+                <input type="radio" id="radio1" name="question1" value="Henreitta Hufflepuff"> Harriet Hufflepuff
+                <br>
+                <input type="radio" id="radio1" name="question1" value="Horace Hufflepuff"> Horace Hufflepuff
+                <br>
+                <p> What was the name of the representative of the Tri Wizard tournement?</p>
+                <input type="radio" id="radio2" name="question2" value="Newt Scamander"> Newt Scamander
+                <br>
+                <input type="radio" id="radio2" name="question2" value="Peter Pettigrew"> Peter Pettigrew
+                <br>
+                <input type="radio" id="radi2" name="question2" value="Cedric Diggory"> Cedric Diggory
+                <br>
+                <input type="radio" id="radi2" name="question2" value="Nymphadora Tonks"> Nymphadora Tonks
+                <br>
+                <p> Which teacher is the head of Hufflepuff?</p>
+                <input type="radio" id="radio3" name="question3" value="Pomono Sprout"> Pomono Sprout
+                <br>
+                <input type="radio" id="radio3" name="question3" value="J.K. Rowling"> J.K. Rowling
+                <br>
+                <input type="radio" id="radio3" name="question3" value="Serius Snape"> Serius Snape
+                <br>
+                <input type="radio" id="radio3" name="question3" value="Dolores Umbridge">Dolores Umbridge
+                <br>
+                <p> What animal is the house mascot?</p>
+                <input type="radio" id="radio4" name="question4" value="Turtle">Turtle
+                <br>
+                <input type="radio" id="radio4" name="question4" value="Sea Otter"> Sea Otter
+                <br>
+                <input type="radio" id="radio4" name="question4" value="Kangaroo"> Kangaroo
+                <br>
+                <input type="radio" id="radio4" name="question4" value="Badger"> Badger
+                <br>
+                </form>
+        </div>
+    
+    
+        <div id="afterSubmit">
+            <div id="message"></div>
+            <div id="finalCorrect"></div>
+            <div id="unanswered"></div>
+            <div id="incorrect"></div>
+        </div>
+        <button id="done" class="btn btn-default">done</button>
+
+    </div>
+   
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/trivia.js"></script>
+</body>
+
+</html>

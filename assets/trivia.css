@@ -1,0 +1,72 @@
+body{
+
+background-image:
+	   url("../assets/images/huffle2.jpg");
+       background-repeat:no-repeat;
+}	
+
+body{
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+
+}
+
+h1{font-family: 'Garamond', serif;
+    color: #000000;
+    padding: 5px;
+    font-size: 45px
+
+}
+h2 {font-family: 'Garamond', serif;
+    color: #000000;
+    padding: 3px;
+    
+}
+
+p {font-family: 'Garamond', serif;
+    color: #000000;
+    padding: 3px;   
+
+}
+#invisible, #submitTest{
+	visibility: hidden;
+}
+
+
+#correct2 {font-family: 'Garamond', serif;
+    color: blue;
+    padding: 3px;
+
+}
+
+#startButton {
+
+    background: green;
+    border: none;
+    border-radius:5px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+#done {
+   background: green;
+    border: none;
+    border-radius:5px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px; 
+}
+#submitTest {
+  background: green;
+    border: none;
+    border-radius:5px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;  
+}
